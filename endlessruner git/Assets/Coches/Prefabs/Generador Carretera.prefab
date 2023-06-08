@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5666013957675627386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7679303258576166254}
+  - component: {fileID: 4810187613875859943}
+  - component: {fileID: 4902964909517190297}
+  m_Layer: 0
+  m_Name: Generador Carretera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7679303258576166254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5666013957675627386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4810187613875859943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5666013957675627386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"tramoFinal","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"longitud","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"distanciaEntreTramos","value":{"$content":16.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"tramos","value":{"$content":[1,2,3,4,5,6],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"coches","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"items","value":{"$content":[8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 6136342041338244095, guid: b259328efc70ed641bf8210df1aee2c9, type: 3}
+    - {fileID: 5157084341721945337, guid: 9410509e8d9e9f94f87326db8430e660, type: 3}
+    - {fileID: 3405722598688975256, guid: f6f32f7eff1bead40adcb3cc97645016, type: 3}
+    - {fileID: 5199085665089626063, guid: b67c0eab677f1e144a0bf18205c86263, type: 3}
+    - {fileID: 3752140408972051720, guid: f199dbae062246d4c8ab7ce600d74d22, type: 3}
+    - {fileID: 5960513964029264012, guid: c3c32e07ab93d08479b182e821f731bb, type: 3}
+    - {fileID: 4121474170547086304, guid: 2838e1e65d785db4194b288fb09af82d, type: 3}
+    - {fileID: 6046895167230311851, guid: db62e75e19f59504ea8da7ea12551fb2, type: 3}
+    - {fileID: 3441946964522199272, guid: 4427a88e0c21ba1419e3adaf294ee527, type: 3}
+    - {fileID: 3441946964522199272, guid: 4427a88e0c21ba1419e3adaf294ee527, type: 3}
+    - {fileID: 3441946964522199272, guid: 4427a88e0c21ba1419e3adaf294ee527, type: 3}
+    - {fileID: 3441946964522199272, guid: 4427a88e0c21ba1419e3adaf294ee527, type: 3}
+    - {fileID: 4609594303060384266, guid: 85bf094f08c6d9748886cc5e6f0cdc82, type: 3}
+    - {fileID: 3725840181896717198, guid: 32b8863c98103cc4296a73aedcf8075e, type: 3}
+    - {fileID: 3725840181896717198, guid: 32b8863c98103cc4296a73aedcf8075e, type: 3}
+    - {fileID: 3725840181896717198, guid: 32b8863c98103cc4296a73aedcf8075e, type: 3}
+    - {fileID: 3725840181896717198, guid: 32b8863c98103cc4296a73aedcf8075e, type: 3}
+    - {fileID: 1053029955658889200, guid: ce7b14d6b77e6494196663701ea9b113, type: 3}
+    - {fileID: 1053029955658889200, guid: ce7b14d6b77e6494196663701ea9b113, type: 3}
+    - {fileID: 1053029955658889200, guid: ce7b14d6b77e6494196663701ea9b113, type: 3}
+    - {fileID: 1053029955658889200, guid: ce7b14d6b77e6494196663701ea9b113, type: 3}
+    - {fileID: 1053029955658889200, guid: ce7b14d6b77e6494196663701ea9b113, type: 3}
+    - {fileID: 1053029955658889200, guid: ce7b14d6b77e6494196663701ea9b113, type: 3}
+    - {fileID: 4503775422130955877, guid: 105522bdb7cefe64fb91f47a805fcc01, type: 3}
+    - {fileID: 4503775422130955877, guid: 105522bdb7cefe64fb91f47a805fcc01, type: 3}
+--- !u!114 &4902964909517190297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5666013957675627386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 782f1959c3079914e9d5b942f292b6a2, type: 2}
